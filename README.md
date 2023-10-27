@@ -36,16 +36,16 @@ Each of the two different gateways were configured with DDNS instead of using a 
 
 ### Site 200:
 
-Site 200 is the first service site and is the Data Center as it contains the Domain Controller. It includes one host computer running behind a gateway with the CSR1000v_01 (which is the WAN edge router) running as a VM instance inside a GNS3 instance and connected to the private network. The CSR1000v_01 has an IPS service installed that uses Cisco’s IPS Signature list. It’s also running the OSPF routing protocol on its LAN (Local Area Network) interface.
+Site 200 is the first service site and is the Data Center as it contains the Domain Controller. It includes one host computer running behind a gateway with the CSR1000v_01 (which is the WAN edge router) running as a VM instance inside a GNS3 instance and connected to the private network. The CSR1000v_01 has an IPS service installed that uses Cisco’s IPS Signature list. It’s also running the OSPF routing protocol on its LAN interface.
 
 The private network includes:
 - A FortiGate FW.
     - Running the OSPF routing protocol.
     - Running several policies.
 - R1 and R2.
-    - Running HSRP (Hot Standby Router Protocol) with R1 being the active router and R2 being on standby.
+    - Running HSRP with R1 being the active router and R2 being on standby.
     - Running the OSPF routing protocol.
-    - Serving as DHCP (Dynamic Host Configuration Protocol) relay agents between the Domain Controller and users.
+    - Serving as DHCP relay agents between the Domain Controller and users.
 - A Core Switch, two Distribution Switches, and three Access Switches.
     - Users are distributed into three different VLANs having IDs 40, 50, and 60 according to which Access Switch they’re connected to.
     - The Domain Controller is under VLAN 70 connected to S7.
@@ -56,4 +56,3 @@ The private network includes:
 Site 300 is the second service site. It includes one host computer running behind a gateway with the CSR1000v_02 running as a VM inside a GNS3 instance and connected to the private network. Similar to CSR1000v_01, the CSR1000v_02 has an IPS service installed that uses Cisco’s IPS Signature list. It’s also running the OSPF routing protocol on its LAN interface.
 
 The private network connected to CSR1000v_02 is similar to the one connected to CSR1000v_01, however, it has different VLAN IDs (10, 20, and 30), different IP prefixes, and no Domain Controller (relies on the one in Site 200).
-
