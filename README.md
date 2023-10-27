@@ -1,16 +1,16 @@
 # SD-WAN Prototype Network
 
-To view the deployment documentation, contact the author <a href="mailto:moalaaeldeen7@gmail.com">here</a> and to view a demo of <span style="color:red"><b>SOME</b></span> of the project's results, watch [this](https://youtu.be/zl80-LDKbZk) video.
+To view the deployment documentation, contact the author <a href="https://www.linkedin.com/in/mohamed-alaa-382656263/">here</a> and to view a demo of <span style="color:red"><b>SOME</b></span> of the project's results, watch [this](https://youtu.be/zl80-LDKbZk) video.
 
 ## Contributors:
 
-- <a href="mailto:moalaaeldeen7@gmail.com">Mohamed Ahmed Abdelsalam</a>
+- <a href="google.com">Mohamed Ahmed Abdelsalam</a>
 
-- <a href="mailto:moalaaeldeen7@gmail.com">Laila Ahmed Maged</a>
+- <a href="google.com">Laila Ahmed Maged</a>
 
-- <a href="mailto:moalaaeldeen7@gmail.com">Abdelrahman Hesham Mohamed</a>
+- <a href="https://www.linkedin.com/in/gedawy">Abdelrahman Hesham Mohamed</a>
 
-- <a href="mailto:moalaaeldeen7@gmail.com">Rahma Waleed Saeed</a>
+- <a href="google.com">Rahma Waleed Saeed</a>
 
 ## Project Outline:
 
