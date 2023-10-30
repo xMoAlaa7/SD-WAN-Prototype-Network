@@ -6,11 +6,11 @@ To view the deployment documentation, contact the author <a href="https://www.li
 
 - <a href="https://www.linkedin.com/in/mohamed-abdulsalam-ee">Mohamed Ahmed Abdelsalam</a>
 
-- <a href="google.com">Laila Ahmed Maged</a>
-
 - <a href="https://www.linkedin.com/in/gedawy">Abdelrahman Hesham Mohamed</a>
 
-- <a href="google.com">Rahma Waleed Saeed</a>
+- <p>Laila Ahmed Maged</p>
+
+- <p>Rahma Waleed Saeed</p>
 
 ## Project Outline:
 
