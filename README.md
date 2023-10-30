@@ -1,6 +1,6 @@
 # SD-WAN Prototype Network
 
-To view the deployment documentation, contact the author <a href="https://www.linkedin.com/in/mohamed-alaa-eldeen-a24929298/">here</a> and to view a demo of <span style="color:red"><b>SOME</b></span> of the project's results, watch [this](https://youtu.be/zl80-LDKbZk) video.
+To view the deployment documentation, contact the author <a href="https://www.linkedin.com/in/mohamedalaa7/">here</a> and to view a demo of <span style="color:red"><b>SOME</b></span> of the project's results, watch [this](https://youtu.be/zl80-LDKbZk) video.
 
 ## Contributors:
 
