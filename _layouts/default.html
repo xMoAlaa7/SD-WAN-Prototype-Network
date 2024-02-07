@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <header>
-    <br>
-    <a href="https://xmoalaa7.github.io/Mo_Portfolio/"><p style="color:grey;text-align:center"><b><font size="4">Homepage</font></b></p></a>
-    <hr>
-  </header>
-  <head>
-    <script src="https://kit.fontawesome.com/44374d7295.js" crossorigin="anonymous"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+<header>
+   <br>
+   <a href="https://xmoalaa7.github.io/Mo_Portfolio/">
+      <p style="color:grey;text-align:center"><b><font size="4">Homepage</font></b></p>
+   </a>
+   <hr>
+</header>
+<head>
+   <script src="https://kit.fontawesome.com/44374d7295.js" crossorigin="anonymous"></script>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+   {% include head-custom.html %}
+</head>
+<body>
+   <div class="container-lg px-3 my-5 markdown-body">
       {% if site.title and site.title != page.title %}
       {% endif %}
-
       {{ content }}
-
       {% if site.github.private != true and site.github.license %}
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
+         This site is open source. {% github_edit_link "Improve this page" %}.
       </div>
       {% endif %}
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
-  <hr>
-  <footer>
-    <p style="color:grey;text-align:center">Author: Mohamed Alaa Eldeen Shehata</p>
-    <p style="color:grey;text-align:center;padding: 0px; margin: 0px;"><u>Contact Information</u></p>
-    <p style="color:grey;text-align:center"><a href="https://www.linkedin.com/in/mohamedalaa7/"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>&nbsp<a href="https://www.linkedin.com/in/mohamedalaa7/">LinkedIn</a>&nbsp&nbsp&nbsp&nbsp<a href="mailto:moalaaeldeen7@gmail.com"><i class="fa-solid fa-envelope" style="color: #000000;"></i></a>&nbsp<a href="mailto:moalaaeldeen7@gmail.com">Moalaaeldeen7@gmail.com</a></p>
-  </footer>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+   <script>anchors.add();</script>
+</body>
+<hr>
+<footer>
+   <p style="color:grey;text-align:center">Author: Mohamed Alaa Eldeen Shehata</p>
+   <p style="color:grey;text-align:center;padding: 0px; margin: 0px;"><u>Contact Information</u></p>
+   <p style="color:grey;text-align:center"><a href="https://www.linkedin.com/in/mohamedalaa7/"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>&nbsp<a href="https://www.linkedin.com/in/mohamedalaa7/">LinkedIn</a>&nbsp&nbsp&nbsp&nbsp<a href="mailto:moalaaeldeen7@gmail.com"><i class="fa-solid fa-envelope" style="color: #000000;"></i></a>&nbsp<a href="mailto:moalaaeldeen7@gmail.com">Moalaaeldeen7@gmail.com</a></p>
+</footer>
 </html>
